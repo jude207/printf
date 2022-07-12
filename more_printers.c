@@ -17,7 +17,7 @@ int _print_int_binary(va_list args)
 	x = new;
 	if (new < 0)
 	{
-		_write('1');
+		_putchar('1');
 		new = new * -1;
 		x = new;
 		b += 1;
@@ -43,5 +43,5 @@ void _recursion_int_binary(int a)
 	t = a;
 	if (t / 2)
 		_recursion_int_binary(t / 2);
-	_write(t % 2 + '0');
+	_putchar(t % 2 + '0');
 }
