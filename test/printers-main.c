@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 void _print(unsigned int n, ...);
@@ -24,3 +24,4 @@ void _print(unsigned int n, ...)
 	_putchar('\n');
 	va_end(args);
 }
+
